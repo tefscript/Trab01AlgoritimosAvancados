@@ -20,6 +20,15 @@ O objetivo deste projeto é reunir as soluções dos problemas da atividade, man
 
 ---
 
+## Integrantes
+
+- Andressa Lopes Rodrigues
+- Davi Gonçalves Pereira
+- Gustavo Luis Marcelino
+- Stefani Paula
+
+---
+
 ## Estrutura do projeto
 
 ```text
@@ -50,7 +59,7 @@ Para testar no basta colocar o comando: python nome_da_pasta/nome_do_arquivo.py
 
 ## Como executar os testes (passo a passo)
 
-### PrÃ©-requisitos
+### Requisitos
 - Python 3 instalado e visÃ­vel no terminal (`python --version`).
 
 ### Executando
