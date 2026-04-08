@@ -42,17 +42,20 @@ def create_cycle_list(values, pos):
 
     return nodes[0]
 
-# Teste 1 (com ciclo)
-head1 = create_cycle_list([3, 2, 0, -4], 1)
-result1 = sol.detectCycle(head1)
-print(result1.val if result1 else None)  # Esperado: 2
+if __name__ == "__main__":
+    sol = Solution()
 
-# Teste 2 (com ciclo no início)
-head2 = create_cycle_list([1, 2], 0)
-result2 = sol.detectCycle(head2)
-print(result2.val if result2 else None)  # Esperado: 1
+    # Teste 1 (com ciclo)
+    head1 = create_cycle_list([3, 2, 0, -4], 1)
+    result1 = sol.detectCycle(head1)
+    print(result1.val if result1 else None)  # Esperado: 2
 
-# Teste 3 (sem ciclo)
-head3 = create_cycle_list([1, 2, 3], -1)
-result3 = sol.detectCycle(head3)
-print(result3.val if result3 else None)  # Esperado: None
+    # Teste 2 (com ciclo no início)
+    head2 = create_cycle_list([1, 2], 0)
+    result2 = sol.detectCycle(head2)
+    print(result2.val if result2 else None)  # Esperado: 1
+
+    # Teste 3 (sem ciclo)
+    head3 = create_cycle_list([1, 2, 3], -1)
+    result3 = sol.detectCycle(head3)
+    print(result3.val if result3 else None)  # Esperado: None

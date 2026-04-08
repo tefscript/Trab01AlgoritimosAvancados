@@ -9,11 +9,14 @@ class Solution:
 
         return friends[0]
 
-  # Teste 1
-print(sol.findTheWinner(5, 2))  # Esperado: 3
+if __name__ == "__main__":
+    sol = Solution()
 
-# Teste 2
-print(sol.findTheWinner(6, 5))  # Esperado: 1
+    # Teste 1
+    print(sol.findTheWinner(5, 2))  # Esperado: 3
 
-# Teste 3
-print(sol.findTheWinner(1, 1))  # Esperado: 1
+    # Teste 2
+    print(sol.findTheWinner(6, 5))  # Esperado: 1
+
+    # Teste 3
+    print(sol.findTheWinner(1, 1))  # Esperado: 1

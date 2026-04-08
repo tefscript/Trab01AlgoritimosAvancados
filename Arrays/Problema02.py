@@ -17,19 +17,20 @@ class Solution:
 
         return groups
 
-  sol = Solution()
+if __name__ == "__main__":
+    sol = Solution()
 
-# Teste 1
-words1 = ["apple", "ape", "april", "banana"]
-k1 = 2
-print(sol.prefixConnected(words1, k1))  # Esperado: 1 ("ap")
+    # Teste 1
+    words1 = ["apple", "ape", "april", "banana"]
+    k1 = 2
+    print(sol.prefixConnected(words1, k1))  # Esperado: 1 ("ap")
 
-# Teste 2
-words2 = ["car", "cat", "dog", "door"]
-k2 = 2
-print(sol.prefixConnected(words2, k2))  # Esperado: 2 ("ca", "do")
+    # Teste 2
+    words2 = ["car", "cat", "dog", "door"]
+    k2 = 2
+    print(sol.prefixConnected(words2, k2))  # Esperado: 2 ("ca", "do")
 
-# Teste 3
-words3 = ["hi", "hello", "hey", "hola"]
-k3 = 1
-print(sol.prefixConnected(words3, k3))  # Esperado: 1 ("h")
+    # Teste 3
+    words3 = ["hi", "hello", "hey", "hola"]
+    k3 = 1
+    print(sol.prefixConnected(words3, k3))  # Esperado: 1 ("h")
