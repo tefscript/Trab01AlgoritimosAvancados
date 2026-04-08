@@ -45,3 +45,32 @@ Trab01AlgoritimosAvancados/
 ## Como testar todos os problemas de uma vez
 
 Para testar no basta colocar o comando: python nome_da_pasta/nome_do_arquivo.py
+
+---
+
+## Como executar os testes (passo a passo)
+
+### PrÃ©-requisitos
+- Python 3 instalado e visÃ­vel no terminal (`python --version`).
+
+### Executando
+1. Abra o terminal na raiz do projeto `Trab01AlgoritimosAvancados`.
+2. Rode o comando correspondente ao arquivo que deseja testar:
+
+#### Arrays
+- `python Arrays/Problema01.py`
+- `python Arrays/Problema02.py`
+- `python Arrays/Problema03.py`
+- `python Arrays/Problema04.py`
+- `python Arrays/Problema05.py`
+
+#### Listas Encadeadas
+- `python ListasEncadeadas/Problema01.py`
+- `python ListasEncadeadas/Problema02.py`
+- `python ListasEncadeadas/Problema03.py`
+- `python ListasEncadeadas/Problema04.py`
+
+#### Pilhas
+- `python Pilhas/Problema01.py`
+- `python Pilhas/Problema02.py`
+- `python Pilhas/Problema03.py`
